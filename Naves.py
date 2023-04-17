@@ -43,6 +43,7 @@ class Naves():
         self.nave3 = Nave("Nave 3", self.nave3_img, self.nave3_rect)
 
     def mostrar(self, screen):
+        print("Miguel estuvo aqui")
         screen.blit(self.nodriza_img, self.nodriza_rect)
         screen.blit(self.nave1_img, self.nave1_rect)
         screen.blit(self.nave2_img, self.nave2_rect)
